@@ -10,7 +10,6 @@
 .container3 {
     display: flex;
     background-color: var(--dark-bg);
-    width: 70%;
     margin: auto;
     padding: 10px;
     color: var(--text-color);
@@ -48,7 +47,6 @@
 /* Task #2 */
 .container2 {
     margin-top: 50px;
-    width: 100%;
 }
 
 .box {
@@ -71,5 +69,4 @@
 /* Task #3 */
 .container3 {
     margin-top: 50px;
-    width: 100%;
 }
