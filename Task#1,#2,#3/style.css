@@ -1,0 +1,75 @@
+:root {
+    --blue-color: #1071c7;
+    --orange-color: #eb750f;
+    --dark-bg: #032a51;
+    --text-color: white;
+}
+
+.container1,
+.container2,
+.container3 {
+    display: flex;
+    background-color: var(--dark-bg);
+    width: 70%;
+    margin: auto;
+    padding: 10px;
+    color: var(--text-color);
+}
+
+/* Task #1 */
+.child {
+    padding: 22px;
+    color: var(--text-color);
+}
+
+.child:first-child {
+    background-color: var(--blue-color);
+    flex: 1.5;
+}
+
+.child:last-child {
+    background-color: var(--orange-color);
+    flex: 1;
+}
+
+.child-one {
+    display: flex;
+    background-color: var(--blue-color);
+    padding: 20px;
+    color: var(--text-color);
+    flex: 2;
+    gap: 10px;
+}
+
+.right-content {
+    flex: 1;
+}
+
+/* Task #2 */
+.container2 {
+    margin-top: 50px;
+    width: 100%;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: var(--text-color);
+    gap: 10px;
+}
+
+.blue {
+    background-color: var(--blue-color);
+}
+
+.orange {
+    background-color: var(--orange-color);
+    flex: 1;
+}
+
+/* Task #3 */
+.container3 {
+    margin-top: 50px;
+    width: 100%;
+}
