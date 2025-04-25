@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Single Page Form Example</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="form-view">
+      <h2>Registrationn Form</h2>
+      <form id="registration-form">
+        <input type="text" id="name" placeholder="Enter your name" required />
+        <input
+          type="email"
+          id="email"
+          placeholder="Enter your email"
+          required
+        />
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+    <div id="success-view" class="hidden">
+      <h2>Thank You for Registering!</h2>
+      <p>Your registration is done successfully.</p>
+      <button id="back-button">Back</button>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
